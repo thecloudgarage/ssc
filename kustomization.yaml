@@ -5,7 +5,6 @@ resources:
   - ./csi-powerstore-namespace.yaml
   - ./csi-powerstore-secret.yaml
   - ./csi-powerstore-2.5.0.yaml
-  - ./storageclass-standard-non-default.yaml
   - ./storageclass-powerstore-topology.yaml
   - ./volumesnapshotclass-powerstore.yaml
   - ./metallb.yaml
