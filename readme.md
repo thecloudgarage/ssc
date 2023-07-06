@@ -9,5 +9,7 @@ The set of templates will deploy:
 * PowerProtect Data Manager Service Account and RBAC
 * Cluster Autoscaler
 ```
+cd ssc
 grep -rl EKSA_CLUSTER_NAME . | xargs sed -i "s/EKSA_CLUSTER_NAME/$CLUSTER_NAME/g"
+kubectl kustomize | kubectl apply -f -
 ```
